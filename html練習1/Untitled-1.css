@@ -70,22 +70,24 @@ html{
   width: 25px;
   height: 25px;
   object-fit: contain;
+ 
 }
-.box_line{
-  padding: 15px 10px 13px 0px;
-
+.hr{
+  width: 1px;
+  height: 7px;
 }
 .line{
-  
-  width: 0px;
+  margin-right: 10px;
+  width: 1px;
   height: 25px;
+  margin-top: 24px;
   background-color: #778a50;
 }
 .btn_LOGIN_box {
   margin-top: 24px;
   margin-right: 10px;
-  width: 60px;
-  height: 25px;
+  width: 58px;
+  height: 23px;
   border: solid 1px #778a50;
   border-radius: 3px;
 }
@@ -107,8 +109,8 @@ html{
 .btn_JOIN_box {
   border-radius: 3px;
   margin-top: 24px;
-  width: 49px;
-  height: 25px;
+  width: 47px;
+  height: 23px;
   border: solid 1px #778a50;
 }
 .join {
@@ -321,7 +323,7 @@ padding-bottom: 12px;
 }
 .end{
   width: 414px;
-  height: 1px;
+  height: 0px;
   background-color: #7d7d7d;
   margin-bottom: 14px;
 }
